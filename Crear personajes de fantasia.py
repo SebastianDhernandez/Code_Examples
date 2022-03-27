@@ -133,7 +133,7 @@ class Tanque(Personaje):  # Clase hija, es la unica que puede conjurar
 # Este es un ejemplo, donde un tanque (Pj1) es atacado ferozmente por un guerrero (Pj2), luego es curado por un clerigo
 # (Pj3) y luego es conjurado por un mago (Pj4), al final, el tanque obtiene un powerup por su feroz batalla
 Pj1 = Tanque("Gordrick el macizo", "Gigante", "Resistir", "Voluntad de hierro")
-Pj1.random_name()
+Pj1.random_stats()
 Pj1.informacion()
 time.sleep(5)
 system("cls")
